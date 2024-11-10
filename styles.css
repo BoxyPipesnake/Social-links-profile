@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--ff);
     color: var(--white);
     background-color: var(--grey-900);
 }
@@ -30,7 +31,30 @@ body {
     border-radius: 10px;
 }
 
+/* Info Section */
+
+.info-section {
+    text-align: center;
+}
+
+.profile-img {
+    width: 90px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.location {
+    font-size: 0.875rem;
+    color: var(--green);
+}
 
 .link-container {
     background-color: var(--grey-700);
 }
+
+/* social-media section */
