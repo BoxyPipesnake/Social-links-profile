@@ -83,3 +83,8 @@ body {
     text-decoration: none;
     color: var(--white);
 }
+
+.social-media-link:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
