@@ -74,15 +74,12 @@ body {
     gap: 1rem;
 }
 
-.link-container {
+.social-media-link {
     background-color: var(--grey-700);
     font-weight: 600;
     text-align: center;
     padding: 1rem;
     border-radius: 10px;
-}
-
-.link {
     text-decoration: none;
     color: var(--white);
 }
