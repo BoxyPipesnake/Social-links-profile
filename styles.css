@@ -14,3 +14,23 @@
 
   --ff: "Inter", "sans-serif";
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background-color: var(--grey-900);
+}
+
+.main-container {
+    background-color: var(--grey-800);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.link-container {
+    background-color: var(--grey-700);
+}
